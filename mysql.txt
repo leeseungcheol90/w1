@@ -1,0 +1,20 @@
+bit08 유저만들기
+
+bituser 만들기
+--------------------------------------------------------------------
+tbl_memo
+	mno int auto_increment
+	who varchar(50) not null
+	whom varchar(50) not null
+	content text not null
+	regdate timestamp default value=current_timestamp
+	opendate timestamp 
+--------------------------------------------------------------------
+tbl_store
+	sno int not null auto_increment
+	name varchar(100) not null
+	area varchar(50) not null
+	menus varchar(400)
+	link varchar(100)
+	regdate timestamp default value=current_timestamp
+	moddate timestamp default value=current_timestamp

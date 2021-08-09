@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.zerock.w1.dao.StoreDAOTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-09T09:06:40" hostname="DESKTOP-RJ1AG84" time="0.463">
+  <properties/>
+  <testcase name="testinsert()" classname="org.zerock.w1.dao.StoreDAOTests" time="0.463"/>
+  <system-out><![CDATA[org.zerock.w1.dao.StoreDAO@1551900f
+물끓이기
+------------finish--------------
+Template ResultSet: null
+Template PreparedStatement: com.mysql.cj.jdbc.ClientPreparedStatement: insert into tbl_store(name, area, menus, link) values('후니도니', '종각', '직접 만든 순대, 순대국', null)
+com.mysql.cj.jdbc.ConnectionImpl@4abaed24
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

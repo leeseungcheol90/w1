@@ -1,0 +1,6 @@
+%org.zerock.w1.dao.StoreDAO@1551900f
+물끓이기
+"------------finish--------------
+Template ResultSet: null
+�Template PreparedStatement: com.mysql.cj.jdbc.ClientPreparedStatement: insert into tbl_store(name, area, menus, link) values('후니도니', '종각', '직접 만든 순대, 순대국', null)
++com.mysql.cj.jdbc.ConnectionImpl@4abaed24
